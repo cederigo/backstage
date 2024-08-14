@@ -89,16 +89,19 @@ export class ExtendedMicrosoftStrategy extends MicrosoftStrategy {
     size: string,
   ): Promise<string | undefined> {
     try {
-      const res = await fetch(
+      const timeout = new Promise((resolve, _) => {
+        setTimeout(resolve, 1000, Buffer.from('', 'utf8'));
+      });
+      const fetchPhoto = fetch(
         `https://graph.microsoft.com/v1.0/me/photos/${size}/$value`,
         {
           headers: {
             Authorization: `Bearer ${accessToken}`,
           },
         },
-      );
-      const data = await res.buffer();
+      ).then(r => r.buffer());
 
+      const data = await Promise.race([fetchPhoto, timeout]);
       return `data:image/jpeg;base64,${data.toString('base64')}`;
     } catch (error) {
       return undefined;
