@@ -1,5 +1,17 @@
 # @backstage/core-compat-api
 
+## 0.2.8
+
+### Patch Changes
+
+- 72754db: Updated usage of `useRouteRef`, which can now always return `undefined`.
+- 16cf96c: Both `compatWrapper` and `convertLegacyRouteRef` now support converting from the new system to the old.
+- 6349099: Added config input type to the extensions
+- Updated dependencies
+  - @backstage/frontend-plugin-api@0.7.0
+  - @backstage/core-plugin-api@1.9.3
+  - @backstage/version-bridge@1.0.8
+
 ## 0.2.8-next.3
 
 ### Patch Changes

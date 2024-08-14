@@ -1,5 +1,22 @@
 # @backstage/backend-test-utils
 
+## 0.4.5
+
+### Patch Changes
+
+- 8b13183: Internal updates to support latest version of `BackendFeauture`s from `@backstage/backend-plugin-api`.
+- 7c5f3b0: Update the `ServiceFactoryTester` to be able to test services that enables multi implementation installation.
+- 4e79d19: The default services for `startTestBackend` and `ServiceFactoryTester` now includes the Root Health Service.
+- Updated dependencies
+  - @backstage/backend-defaults@0.4.2
+  - @backstage/backend-plugin-api@0.8.0
+  - @backstage/backend-app-api@0.8.1
+  - @backstage/plugin-auth-node@0.5.0
+  - @backstage/config@1.2.0
+  - @backstage/errors@1.2.4
+  - @backstage/types@1.1.1
+  - @backstage/plugin-events-node@0.3.9
+
 ## 0.4.5-next.3
 
 ### Patch Changes

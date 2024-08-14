@@ -1,5 +1,17 @@
 # @backstage/backend-tasks
 
+## 0.5.28
+
+### Patch Changes
+
+- ba9abf4: The `PluginTaskScheduler` now allows tasks with `frequency: { trigger: 'manual' }`. This means that the task will not be scheduled, but rather run only when manually triggered with `PluginTaskScheduler.triggerTask`.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.8.0
+  - @backstage/backend-common@0.23.4
+  - @backstage/config@1.2.0
+  - @backstage/errors@1.2.4
+  - @backstage/types@1.1.1
+
 ## 0.5.28-next.3
 
 ### Patch Changes

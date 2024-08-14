@@ -1,5 +1,19 @@
 # @backstage/plugin-search-backend-module-explore
 
+## 0.1.29
+
+### Patch Changes
+
+- 93095ee: Make sure node-fetch is version 2.7.0 or greater
+- 93fc1a0: Updated dependency `@backstage-community/plugin-explore-common` to `^0.0.4`.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.8.0
+  - @backstage/backend-common@0.23.4
+  - @backstage/plugin-search-backend-node@1.2.28
+  - @backstage/plugin-search-common@1.2.14
+  - @backstage/backend-tasks@0.5.28
+  - @backstage/config@1.2.0
+
 ## 0.1.29-next.3
 
 ### Patch Changes

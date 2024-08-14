@@ -1,5 +1,35 @@
 # @backstage/backend-common
 
+## 0.23.4
+
+### Patch Changes
+
+- ba8571e: Setup user agent header for AWS sdk clients, this enables users to better track API calls made from Backstage to AWS APIs through things like CloudTrail.
+- 93095ee: Make sure node-fetch is version 2.7.0 or greater
+- 7e13b7a: The remaining exports in the package have now been deprecated:
+
+  - `cacheToPluginCacheManager`
+  - `createLegacyAuthAdapters`
+  - `LegacyCreateRouter`
+  - `legacyPlugin`
+  - `loggerToWinstonLogger`
+  - `makeLegacyPlugin`
+
+  Users of these export should fully [migrate to the new backend system](https://backstage.io/docs/backend-system/building-backends/migrating).
+
+- ddde5fe: Internal type refactor.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.8.0
+  - @backstage/config-loader@1.9.0
+  - @backstage/plugin-auth-node@0.5.0
+  - @backstage/backend-dev-utils@0.1.5
+  - @backstage/integration@1.14.0
+  - @backstage/cli-common@0.1.14
+  - @backstage/config@1.2.0
+  - @backstage/errors@1.2.4
+  - @backstage/integration-aws-node@0.1.12
+  - @backstage/types@1.1.1
+
 ## 0.23.4-next.3
 
 ### Patch Changes

@@ -1,5 +1,20 @@
 # @backstage/plugin-search-backend-node
 
+## 1.2.28
+
+### Patch Changes
+
+- 3123c16: Fix package metadata
+- 7c5f3b0: Explicit declare if the service ref accepts `single` or `multiple` implementations.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.8.0
+  - @backstage/backend-common@0.23.4
+  - @backstage/plugin-permission-common@0.8.1
+  - @backstage/plugin-search-common@1.2.14
+  - @backstage/backend-tasks@0.5.28
+  - @backstage/config@1.2.0
+  - @backstage/errors@1.2.4
+
 ## 1.2.28-next.3
 
 ### Patch Changes

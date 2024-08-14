@@ -1,5 +1,23 @@
 # @backstage/plugin-devtools-backend
 
+## 0.3.9
+
+### Patch Changes
+
+- 93095ee: Make sure node-fetch is version 2.7.0 or greater
+- 32a38e1: Removed unused code for lockfile analysis.
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.8.0
+  - @backstage/backend-common@0.23.4
+  - @backstage/plugin-permission-common@0.8.1
+  - @backstage/config-loader@1.9.0
+  - @backstage/plugin-permission-node@0.8.1
+  - @backstage/cli-common@0.1.14
+  - @backstage/config@1.2.0
+  - @backstage/errors@1.2.4
+  - @backstage/types@1.1.1
+  - @backstage/plugin-devtools-common@0.1.12
+
 ## 0.3.9-next.3
 
 ### Patch Changes

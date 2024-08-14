@@ -1,5 +1,18 @@
 # @backstage/plugin-auth-backend-module-aws-alb-provider
 
+## 0.1.15
+
+### Patch Changes
+
+- c8f1cae: Add `signIn` to authentication provider configuration schema
+- 93095ee: Make sure node-fetch is version 2.7.0 or greater
+- Updated dependencies
+  - @backstage/backend-plugin-api@0.8.0
+  - @backstage/backend-common@0.23.4
+  - @backstage/plugin-auth-backend@0.22.10
+  - @backstage/plugin-auth-node@0.5.0
+  - @backstage/errors@1.2.4
+
 ## 0.1.15-next.3
 
 ### Patch Changes
